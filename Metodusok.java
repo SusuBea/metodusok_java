@@ -6,7 +6,7 @@ public class Metodusok {
 
     public static void main(String[] args) {
         int osszeg = elso10szamOsszege();
-        String kimenet = "Az első 10 szám összege: " + osszeg + "\n)";
+        String kimenet = "Az első 10 szám összege: " + osszeg + "\n";
         kiir(kimenet);
         
         int szam1 = 7, szam2 = 4;
