@@ -5,12 +5,12 @@ package metodusok;
 public class Metodusok {
 
     public static void main(String[] args) {
-        int osszeg = elso10szamOsszege();
-        String kimenet = "Az első 10 szám összege: " + osszeg + "\n";
+        int osszeg = osszead();
+        String kimenet = "4 szám összege: " + osszeg + "\n";
         kiir(kimenet);
         
-        int szam1 = 7, szam2 = 4;
-        kiir("%d + %d = %d\n".formatted(szam1, szam2, osszeg));
+        int szam1 = 7, szam2 = 4, szam3 = 5, szam4= 9;
+        kiir("%d + %d + %d + %d = %d\n".formatted(szam1, szam2, szam3, szam4, osszeg));
         
        
     }
@@ -25,9 +25,9 @@ public class Metodusok {
             //System.out.println("Az első 10 szám összege: +" + osszeg);
     }
     
-        public static int osszead(int a, int b){
+        public static int osszead(int a, int b, int c, int d){
             //System.out.printf("%d + %d = %d\n", a, b, a+b);
-            return a+b;
+            return a+b+c+d;
         }
         
         public static void kiir(String szoveg){
