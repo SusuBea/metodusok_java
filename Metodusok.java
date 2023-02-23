@@ -10,7 +10,7 @@ public class Metodusok {
         kiir(kimenet);
         
         int szam1 = 7, szam2 = 4;
-        kiir("%d + %d = %d\n".formatted(szam1, szam2, szam1+szam2));
+        kiir("%d + %d = %d\n".formatted(szam1, szam2, osszeg));
         
        
     }
